@@ -1,103 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <!-- keyword and description is meta tag where keyword is used to show it while searching on browser like google. -->
-    <!-- <meta name="keywords" content="lab1"> -->
-    <!-- <meta name="description" content="lab1 is a basic learning of html"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAB1</title>
-    <style>
-        #side {
-            background-color: #E27D60;
-            position: absolute;
-            top: 30%;
-            left: 70%;
-
-
-        }
-
-        .first {
-            background-color: #41b3a3;
-        }
-
-        table {
-            position: absolute;
-            top: 28%;
-            left: 10%;
-
-        }
-
-        td,
-        th,
-        table {
-            border: 1px solid rgb(190, 190, 190);
-            padding: 10px;
-            margin: 10px;
-        }
-
-        caption {
-            padding: 10px;
-            caption-side: bottom;
-        }
-    </style>
-
-
+   <meta name="keyword" content="Sirapa-Singh">
+   <meta name="description" content="HelloWorld">
+    <title>Lab 1</title>
+    <style> 
+    table{
+        width: 100%;
+    }
+    td#main_part{
+        background-color: red;
+    }
+    td#side_part{
+        background-color: yellow;
+    }
+        </style>
 </head>
-
 <body>
-    <!-- h1 div,etc is blocking element, span is non-blocking, blocking elemen are those jaslay sabai line aafai ogatxa -->
-
-    <div class="first">
-
-        <h1 style="text-align: center;">
-            welcome to ASIAN Search
-        </h1>
-
-        <!-- <div>Hi</div>
-                <span>Hello</span> -->
-        <!-- flex layout-helps in responsive  -->
-
-        <div style="display: flex; flex-direction:column ;
-                 gap: 30px; 
-                 justify-content: center; align-items: center;">
-            <img src="img.jpg" alt="Aruna Image" width="200px" height="200px" style="display: block;">
-            <div>
-                <input type="text" name="id" placeholder="Enter your search">
-                <input type="button" name="submit" value="search">
-                <table>
-                    <caption>Data of users</caption>
-                    <tr>
-                        <th>name</th>
-                        <th>email</th>
-                        <th>timeUsed</th>
-                    </tr>
-                    <tr>
-                        <th>Ram</th>
-                        <th>ram@gmail.com</th>
-                        <td>45 min</td>
-                    </tr>
-
-                </table>
-
-            </div>
-            <div id="side">
-                <td>
-                    <h2> Recent search</h2>
-                    <ul>
-                        <li> Ram</li>
-                        <li> Hari</li>
-                        <li> Sita</li>
-                    </ul>
-                </td>
-            </div>
+            <table style="border: black 1px solid">
+                <tr>
+                    <td id="main_part"><h1 style="text-align: center;">Welcome to Asian Search</h1>
+                        <div style="text-align: center; font-family: 'Franklin Gothic Medium';"> 
+    
+    
+                            <img src="img.jpg" alt="asian" width="20%">
+                            <div style="margin:15px;"></div>
+                            <input type="text" name="" id="">
+                            <input type="submit" value="Search">
+                            </td>
 
 
+                    <td id="side_part"><h3>Recent Search</h3>
+                        <ul>
+                           <li>Ram</li>
+                           <li>Kaido</li>
+                           <li>Luffy</li>
+            
+                        </ul></td>
+
+                </tr>
+            </table>
         </div>
-
+        
     </div>
+    
 
 </body>
-
 </html>
